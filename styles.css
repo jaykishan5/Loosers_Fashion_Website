@@ -43,6 +43,10 @@ p {
     margin: 40px 0;
 }
 
+#navbar button.normal{
+    background-color: #E3E6F3;
+}
+
 button.normal{
     font-size: 14px;
     font-weight: 600;
@@ -112,6 +116,7 @@ body {
 }
 
 #navbar li a:hover,
+#navbar button:hover,
 #navbar li a.active{
     color:rgb(4, 143, 129);
 }
@@ -602,6 +607,7 @@ footer .copyright{
     font-size: 16px;
     margin-right: 10px;
     border-radius: 4px;
+    margin-left: 10px;
 }
 
 #prodetails .single-pro-details span{
@@ -618,6 +624,19 @@ footer .copyright{
     margin-right: 50px;
 }
 
+.size-button {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+ }
+ 
 .small-img-group{
     display: flex;
     justify-content: space-between;
